@@ -1,0 +1,14 @@
+{
+  "name": "wyrestorm-sw0402mv",
+  "version": "1.0.0",
+  "description": "Module to control the Wyrestorm SW-0402-mv Multiviewer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Multiview"
+  ],
+  "author": "Per Roine",
+  "license": "MIT"
+}
