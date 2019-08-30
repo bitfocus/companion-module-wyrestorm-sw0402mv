@@ -435,26 +435,26 @@ instance.prototype.actions = function(system) {
 			label: 'Route inputs',
 			options: [
 				{
-					 type: 'dropdown',
-					 label: 'Output',
-					 id: 'out',
-					 choices: [
-						 { id: '1', label: 'Output 1' },
-						 { id: '2', label: 'Output 2' }
-					 ]
+					type: 'dropdown',
+					label: 'Output',
+					id: 'out',
+					choices: [
+						{ id: '1', label: 'Output 1' },
+						{ id: '2', label: 'Output 2' }
+					]
 				},
 				{
-					 type: 'dropdown',
-					 label: 'Input',
-					 id: 'inp',
-					 choices: [
-						 { id: '1', label: 'Input 1' },
-						 { id: '2', label: 'Input 2' },
-						 { id: '3', label: 'Input 3' },
-						 { id: '4', label: 'Input 4' },
-						 { id: '5', label: '4K QV' },
-						 { id: '6', label: '2K QV' }
-					 ]
+					type: 'dropdown',
+					label: 'Input',
+					id: 'inp',
+					choices: [
+						{ id: '1', label: 'Input 1' },
+						{ id: '2', label: 'Input 2' },
+						{ id: '3', label: 'Input 3' },
+						{ id: '4', label: 'Input 4' },
+						{ id: '5', label: '4K QV' },
+						{ id: '6', label: '2K QV' }
+					]
 				}
 			]
 		},
@@ -462,15 +462,15 @@ instance.prototype.actions = function(system) {
 			label: 'Multiviewer mode',
 			options: [
 				{
-					 type: 'dropdown',
-					 label: 'Mode',
-					 id: 'mode',
-					 choices: [
-						 { id: '5', label: 'MV L' },
-						 { id: '4', label: 'MV R' },
-						 { id: '3', label: 'MV T' },
-						 { id: '2', label: 'MV B' }
-					 ]
+					type: 'dropdown',
+					label: 'Mode',
+					id: 'mode',
+					choices: [
+						{ id: '5', label: 'MV L' },
+						{ id: '4', label: 'MV R' },
+						{ id: '3', label: 'MV T' },
+						{ id: '2', label: 'MV B' }
+					]
 				},
 			]
 		},
@@ -507,7 +507,7 @@ instance.prototype.action = function(action) {
 						self.log('Error from wyrestorm: ' + result);
 						return;
 						}
-					console.log("Result from REST: ", result);
+					//console.log("Result from REST: ", result);
 					});
 		}
 
