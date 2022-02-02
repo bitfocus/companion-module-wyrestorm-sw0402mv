@@ -1,13 +1,13 @@
 {
 	"name": "wyrestorm-sw0402mv",
-		"version": "1.0.1",
+	"version": "1.0.2",
 	"legacy": [
 		"wyrestorm-sw0402mv"
 	],
 	"api_version": "1.0.0",
 	"keywords": [
-			"Multiviewer"
-		],
+		"Multiviewer"
+	],
 	"manufacturer": "Wyrestorm",
 	"product": "SW-0402-MV",
 	"shortname": "wyrestorm",
