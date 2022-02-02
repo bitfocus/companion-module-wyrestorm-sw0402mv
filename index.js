@@ -436,7 +436,7 @@ self.setPresetDefinitions(presets);
 instance.prototype.actions = function(system) {
 	var self = this;
 
-	self.system.emit('instance_actions', self.id, {
+	self.setActions({
 		'route': {
 			label: 'Route inputs',
 			options: [
