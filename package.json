@@ -1,29 +1,27 @@
 {
 	"name": "wyrestorm-sw0402mv",
-	"version": "1.0.3",
-	"legacy": [
-		"wyrestorm-sw0402mv"
-	],
-	"api_version": "1.0.0",
-	"keywords": [
-		"Multiviewer"
-	],
-	"manufacturer": "Wyrestorm",
-	"product": "SW-0402-MV",
-	"shortname": "wyrestorm",
-	"description": "Module to control the Wyrestorm SW-0402-mv Multiviewer",
-	"main": "index.js",
+	"version": "2.0.0",
+	"main": "src/main.js",
+	"type": "module",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"format": "prettier -w .",
+		"package": "companion-module-build"
 	},
-	"author": "Per Røine <per.roine@gmail.com>",
 	"license": "MIT",
-	"homepage": "https://github.com/bitfocus/companion-module-wyrestorm-sw0402mv#readme",
-	"bugs": {
-		"url": "https://github.com/bitfocus/companion-module-wyrestorm-sw0402mv/issues"
-	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/bitfocus/companion-module-wyrestorm-sw0402mv.git"
-	}
+	},
+	"engines": {
+		"node": "^22.20"
+	},
+	"dependencies": {
+		"@companion-module/base": "~2.1.3"
+	},
+	"devDependencies": {
+		"@companion-module/tools": "^3.1.0",
+		"prettier": "^3.8.3"
+	},
+	"prettier": "@companion-module/tools/.prettierrc.json",
+	"packageManager": "yarn@4.18.0"
 }
